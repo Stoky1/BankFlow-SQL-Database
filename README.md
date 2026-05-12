@@ -26,15 +26,7 @@ This project demonstrates:
 - GROUP BY and ORDER BY queries
 - Data filtering and management
 
-## Example Queries
-```sql
-SELECT customer_name, balance
-FROM customers
-JOIN accounts
-ON customers.customer_id = accounts.customer_id
-WHERE balance > 5000;
-
-## Project Screenshots
+  ## Project Screenshots
 
 ### Customers Table
 ![Customers](sql1.png)
@@ -44,3 +36,11 @@ WHERE balance > 5000;
 
 ### SQL JOIN and Loan Queries
 ![Queries](sql3.png)
+
+## Example Queries
+```sql
+SELECT customer_name, balance
+FROM customers
+JOIN accounts
+ON customers.customer_id = accounts.customer_id
+WHERE balance > 5000;
