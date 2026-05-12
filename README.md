@@ -33,3 +33,14 @@ FROM customers
 JOIN accounts
 ON customers.customer_id = accounts.customer_id
 WHERE balance > 5000;
+
+## Project Screenshots
+
+### Customers Table
+![Customers](sql1.png)
+
+### Transactions and Accounts
+![Transactions](sql2.png)
+
+### SQL JOIN and Loan Queries
+![Queries](sql3.png)
